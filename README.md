@@ -1,2 +1,2 @@
-password_mate
+Password Mate
 =============

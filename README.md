@@ -16,7 +16,6 @@ Usage
 In your class -
  
     require 'password_mate'
-    require 'active_model'
     include PasswordMate
 
  There are mainly two helpers available for Password Mate usage.

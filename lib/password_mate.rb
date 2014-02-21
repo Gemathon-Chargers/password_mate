@@ -8,7 +8,7 @@ module PasswordMate
   PasswordLength = 8
 
   def strong?(str)
-    return false if str.blank?
+    return false if str && str.empty?
     return false unless str =~ Regexp.union(*SpecialCharacters)
     return false unless str =~ Regexp.union(*LowercaseLetters)
     return false unless str =~ Regexp.union(*UppercaseLetters)
